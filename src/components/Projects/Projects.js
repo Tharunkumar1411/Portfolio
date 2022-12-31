@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pylamp from "../../Assets/Projects/pylamp.png";
+import grievence from "../../Assets/Projects/grievence.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -28,16 +30,17 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={grievence}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description=""
-              ghLink=""
-              demoLink=""
+              title="Grievence System"
+              description="Build this site for engaging our Pylamp club members and ways to manage our club data.
+              We can make attendance on this site. Admin can create their own forms, members can track their performance in the club. Admin can export their event details."
+              ghLink="https://github.com/Tharunkumar001/Greivence-Complaint"
+              demoLink="https://grievence-complaints.netlify.app/"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
