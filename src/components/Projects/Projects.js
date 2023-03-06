@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pylamp from "../../Assets/Projects/pylamp.png";
 import grievence from "../../Assets/Projects/grievence.png";
+import todo from "../../Assets/Projects/todo.png";
 
 function Projects() {
   return (
@@ -27,6 +28,17 @@ function Projects() {
               Admin can export their event details."
               ghLink="https://github.com/Tharunkumar001/pylampOfficial"
               demoLink="https://pylamp-official.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="Todo App"
+              description="Effective online todo managing site and integrate with telegram bot. You will notify by telegram bot on a regular basis."
+              ghLink="https://github.com/Tharunkumar001/TodoApp"
+              demoLink="https://todo-app-tharunkumar.vercel.app/"
             />
           </Col>
 
