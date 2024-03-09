@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pylamp from "../../Assets/Projects/pylamp.png";
 import grievence from "../../Assets/Projects/grievence.png";
-import todo from "../../Assets/Projects/todo.png";
+import streamX from "../../Assets/Projects/streamX.png";
 
 function Projects() {
   return (
@@ -33,12 +33,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todo}
+              imgPath={streamX}
               isBlog={false}
-              title="Todo App"
-              description="Effective online todo managing site and integrate with telegram bot. You will notify by telegram bot on a regular basis."
-              ghLink="https://github.com/Tharunkumar001/TodoApp"
-              demoLink="https://todo-app-tharunkumar.vercel.app/"
+              title="StreamX"
+              description="Its a streaming plateform. Like netflix, hotstar. Done this project for competition not for solving any new real world problems. Just a competition project."
+              ghLink="https://github.com/Tharunkumar1411/StreamX"
+              demoLink="https://stream-x-beryl.vercel.app/"
             />
           </Col>
 
