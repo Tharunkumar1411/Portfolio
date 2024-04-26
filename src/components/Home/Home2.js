@@ -19,12 +19,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and   
-              Every day I update myself to be better than my yesterday's version.
+            I am a dedicated software engineer currently employed in a dynamic product company, specializing in <b className="purple">React and React Native</b> development. With over 1 year of professional experience, I have honed my skills and expertise in the <b className="purple">MERN</b> stack, consistently delivering high-quality solutions to meet diverse project needs.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript and Java. </b>
+                <b className="purple"> Javascript. </b>
               </i>
               <br />
               <br />
@@ -33,20 +32,13 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Cloud Computing.
+                  web3 Technologies.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
+              with <b className="purple">Node.js</b> and Modern Javascript Library and Frameworks like
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
@@ -67,7 +59,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Tharunkumar001"
+                  href="https://github.com/Tharunkumar1411"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/tharungobi/"
+                  href="https://www.linkedin.com/in/tharunkumar1411/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

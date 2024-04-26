@@ -42,7 +42,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={grievence}
               isBlog={false}
@@ -52,7 +52,7 @@ function Projects() {
               ghLink="https://github.com/Tharunkumar001/Greivence-Complaint"
               demoLink="https://grievence-complaints.netlify.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

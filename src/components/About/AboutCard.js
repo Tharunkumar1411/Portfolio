@@ -8,24 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Tharunkumar Govindharaj </span>
+            Hi Everyone, I am Tharunkumar Govindharaj
             from <span className="purple"> Erode, India.</span>
-            <br />I am a junior pursuing BE Computer Science and Engineering.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br />I'm currently a working professional with <span className="purple">1.5 years</span> of experience in product development using <span className="purple">React and React Native.</span> Presently, I'm employed at ShopSe, a product-based company.
+            <br /><br />
+            I'm also passionate about exploring Web3 technologies and have started learning <span className="purple">1Ethereum and Solidity.</span>            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
