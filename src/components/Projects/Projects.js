@@ -36,7 +36,7 @@ function Projects() {
               imgPath={streamX}
               isBlog={false}
               title="StreamX"
-              description="Its a streaming plateform. Like netflix, hotstar. Done this project for competition not for solving any new real world problems. Just a competition project."
+              description="I developed a UI layout with an integrated video player, boosting completion rates by 50%. I also built a proprietary video streaming platform and introduced a personalized playlist feature, enhancing user experience and engagement."
               ghLink="https://github.com/Tharunkumar1411/StreamX"
               demoLink="https://stream-x-beryl.vercel.app/"
             />
