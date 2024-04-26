@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiJava,
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -42,6 +43,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
     </Row>
   );
