@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pylamp from "../../Assets/Projects/pylamp.png";
-import grievence from "../../Assets/Projects/grievence.png";
 import streamX from "../../Assets/Projects/streamX.png";
+import kicks from "../../Assets/Projects/kicks.png";
 
 function Projects() {
   return (
@@ -20,16 +20,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pylamp}
+              imgPath={kicks}
               isBlog={false}
-              title="Site Pylamp"
-              description="I build this site for engaging our Pylamp club members and ways to manage our club data.
-              We can make attendance on this site. Admin can create their own forms, members can track their performance in the club. 
-              Admin can export their event details."
-              ghLink="https://github.com/Tharunkumar001/pylampOfficial"
-              demoLink="https://pylamp-official.vercel.app/"
+              title="Kicks (E-commerce)"
+              description="The project is built using a modular approach, ensuring scalability and independent
+              deployments. Includes product listings, authentication (Google & username), cart management, and
+              checkout."
+              ghLink="https://github.com/Tharunkumar1411/kicks"
+              demoLink="https://kick-app.vercel.app/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -42,17 +43,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={grievence}
+              imgPath={pylamp}
               isBlog={false}
-              title="Grievence System"
-              description="Build this site for engaging our Pylamp club members and ways to manage our club data.
-              We can make attendance on this site. Admin can create their own forms, members can track their performance in the club. Admin can export their event details."
-              ghLink="https://github.com/Tharunkumar001/Greivence-Complaint"
-              demoLink="https://grievence-complaints.netlify.app/"
+              title="Site Pylamp"
+              description="I build this site for engaging our Pylamp club members and ways to manage our club data.
+              We can make attendance on this site. Admin can create their own forms, members can track their performance in the club. 
+              Admin can export their event details."
+              ghLink="https://github.com/Tharunkumar001/pylampOfficial"
+              demoLink="https://pylamp-official.vercel.app/"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
