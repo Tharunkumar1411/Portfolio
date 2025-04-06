@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import pylamp from "../../Assets/Projects/pylamp.png";
 import streamX from "../../Assets/Projects/streamX.png";
 import kicks from "../../Assets/Projects/kicks.png";
+import workflow from "../../Assets/Projects/workflow.png";
 
 function Projects() {
   return (
@@ -31,6 +32,17 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={workflow}
+              isBlog={false}
+              title="Workflow Management"
+              description="Built an intuitive drag-and-drop interface for managing workflow processes using React, Zustand, and MUI. The system supports collapsible rows, dynamic pagination, and seamless data fetching with real-time updates, backed by a Node.js + MongoDB API."
+              ghLink="https://github.com/Tharunkumar1411/workflow"
+              demoLink="https://workflow-mat-book.vercel.app/"
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -43,7 +55,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pylamp}
               isBlog={false}
@@ -54,7 +66,7 @@ function Projects() {
               ghLink="https://github.com/Tharunkumar001/pylampOfficial"
               demoLink="https://pylamp-official.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
