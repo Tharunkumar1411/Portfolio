@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a dedicated software engineer currently employed in a dynamic product company, specializing in <b className="purple">React and React Native</b> development. With over 1 year of professional experience, I have honed my skills and expertise in the <b className="purple">MERN</b> stack, consistently delivering high-quality solutions to meet diverse project needs.
+            I am a dedicated software engineer currently employed in a dynamic product company, specializing in <b className="purple">React and React Native</b> development. With over 2 year of professional experience, I have honed my skills and expertise in the <b className="purple">MERN</b> stack, consistently delivering high-quality solutions to meet diverse project needs.
               <br />
               <br />I am fluent in classics like
               <i>
