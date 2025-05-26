@@ -14,11 +14,6 @@ function AboutCard() {
             <br /><br />
             I'm also passionate about exploring Web3 technologies and have started learning <span className="purple">1Ethereum and Solidity.</span>            <br />
           </p>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
